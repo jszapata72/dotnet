@@ -95,6 +95,37 @@ namespace CS002_TiposDeDatos
             Console.WriteLine("activar = {0}", activar);
             Console.WriteLine("hola = {0}", hola);
 
+            // Literales enteras
+            int i1 = 0300;        // octal
+            int i2 = 0xfff;       // hexadecimal
+            uint i3 = 328u;       // unsigned
+            long i4 = 0x7FFFFFL;  // long
+            ulong i5 = 0776745ul; // unsigned long
+
+            // literales flotantes
+            float f1 = 3.1416f;
+            double f2 = 3.1416d;
+            decimal f3 = 3.1416m;
+
+            // literales de  caracter
+            char c1 = 'a';    // el carcater 'a' :)
+            char c2 = '\'';   // el caracter comilla simple '
+            char c3 = '\"';   // el caracter comilla doble "
+            char c4 = '\b';   // retroceso
+            char c5 = '\f';   // avance de pagina
+            char c6 = '\n';   // nueva linea
+            char c7 = '\u005C';   // representa el caracter unicode '\'
+
+            // literales cadenas
+            string s1 = "\\\\server\\share\\file.txt";   // \\server\share\file.txt
+            string s2 = @"\\server\share\file.txt";      // \\server\share\file.txt
+            string s3 = "one\r\ntwo\r\nthree";
+            string s4 = @"one
+            two
+            three";
+            Console.WriteLine(s3);
+            Console.WriteLine(s4);
+
             // Lo nuevo...
             // La palabra reservada "var" permite declarar una
             // variable y que el compilador "deduzca" su tipo

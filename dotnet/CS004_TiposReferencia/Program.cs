@@ -19,7 +19,7 @@
 
 using System;
 
-namespace CS04_TiposReferencia
+namespace CS004_TiposReferencia
 {
     class Program
     {

@@ -57,7 +57,7 @@
 
 using System;
 
-namespace CS03_TiposValor
+namespace CS003_TiposValor
 {
     class Program
     {
